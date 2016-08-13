@@ -1,0 +1,58 @@
+body {
+	background-color: lightgreen;
+	font: 300 16px/22px "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 22px;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
+
+a:hover {
+	color: #a9b2b9;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+form {
+  margin-bottom: 22px;
+}
+
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.field {
+	display: inline-block;
+	width: 960px;
+	margin: 0 144px;
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.menu {
+	margin-left: 300px;
+	line-height: 44px;
+	font-size: 30px;
+}
+
+.manual {
+	width: 85%;
+	margin-left: 100px;
+}
+
+.para {
+	text-align: justify;
+}

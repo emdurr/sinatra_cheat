@@ -1,0 +1,27 @@
+<hr />
+<form method='POST' action='/search'>
+	<div class='center field'>
+   <div class='spacing'>
+      <label>
+    		What command will you search for?
+    		<input type="text" name="name" placeholder="Search" required />
+      </label>
+    </div>
+    <input type="submit" value="Search" />
+  </div>
+  
+</form>
+<hr />
+<div class='para'>
+  <p class='manual'>
+    <% if `man #{@input}` == nil %>
+      <strong>
+        <h1>Nothing was found</h1>
+      </strong>
+    <% else %>
+      <%= `man #{@input}` %>
+    <% end %>
+    
+
+  </p>
+</div>
